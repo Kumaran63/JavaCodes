@@ -1,0 +1,7 @@
+Constructor chaining is the process of calling one constructor from another constructor with respect to current object.
+Constructor chaining can be done in two ways:
+
+> Within same class: It can be done using this() keyword for constructors in same class
+> From base class: by using super() keyword to call constructor from the base class.
+to know more go to the link 
+https://www.geeksforgeeks.org/constructor-chaining-java-examples/
