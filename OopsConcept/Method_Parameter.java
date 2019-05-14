@@ -17,6 +17,10 @@ public void method(int age){
 /*public void method(int salary){
     System.out.println(" salary is printing");
 }*/ //this can't happen since a parameter with int is decalared
+
+public void salary(int salary) {
+	System.out.println("the salary is "+salary);
+}
 }
 public class Method_Parameter
 {
@@ -26,7 +30,9 @@ public class Method_Parameter
 		p.method(34,"Kumaran");
 		p.method("Kumaran",54);
 		p.method(34);
+		p.salary(135456);
 	}
 }
+
 
 
