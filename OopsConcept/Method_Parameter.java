@@ -21,6 +21,10 @@ public void method(int age){
 public void salary(int salary) {
 	System.out.println("the salary is "+salary);
 }
+public void method(String name)
+{
+	System.out.println(name);
+}
 }
 public class Method_Parameter
 {
@@ -31,6 +35,8 @@ public class Method_Parameter
 		p.method("Kumaran",54);
 		p.method(34);
 		p.salary(135456);
+		String student = "Jhon";
+		p.method(student);
 	}
 }
 
